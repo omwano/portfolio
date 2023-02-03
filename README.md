@@ -12,7 +12,7 @@ These instructions will help you to install a copy of the project for developmen
 
 - Clone the repository to your local machine: git clone https://github.com/omwano/portfolio.git
 - Open the cloned folder in VS Code
-- Go Live to view the page
+- Go Live, to view the page
 
 ## Technologies used
 - HTML
