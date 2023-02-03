@@ -1,6 +1,9 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+body {
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  }
+
+  img{
+    padding: 10px;
+  }
