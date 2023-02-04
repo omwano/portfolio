@@ -2,9 +2,43 @@ body {
   margin: auto;
   width: 640px;
   padding: 50px;
+  background-color: turquoise;
+  background-image: url(https://www.pexels.com/photo/water-droplets-on-a-fern-plant-7718245/);
+  background-repeat: no-repeat;
+    
   }
-
+  
   img{
     padding: 10px;
+    
   }
+  
+  .subscribers-container {
+    max-width: 800px;
+    margin: 60px auto;
+    background-color: gold;
+    border: 5px solid black
+}
+.subscribers-container form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subscribers-container form input {
+    margin: 15px;
+    border: 1px solid black;
+    padding: 0.4rem;
+}
+.subscribers-container form input {
+    flex: 1 1 200px;
+}
+
+.subscribers-container form input[type="submit"] {
+    border-radius: 3px;
+    background-color: gold;
+color: blueviolet;
+}
+
+.subscribers-container form input[type="email"] {
+    flex: 1 1 250px;
+}
   
