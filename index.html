@@ -4,34 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet">
   <title>My Portfolio</title>
   <style>
+    h1 {text-align: center;}
     body {
       background-color: turquoise;
       font-style: normal;
       font-size: medium;
           }
     
-    img {
-      border-radius: 50%;
-    }
-    .custom{
+    
+
+        .custom{
       font-family: cambria;
       color: rgb(29, 5, 125);
       font-size: 15px;
       font-style: normal;
-    }
+        }
   </style>
-  </head>
+      </head>
 <body>
-  <div style="text-align: center;">
+  <div style="text-align: center; border-radius: 50%; padding: 10px;">
     
     <img width ="400" src="../portfolio/images/me.jpg" alt="Not Found">
     <p class="custom"><strong>Hellen Omwono</strong></p>
   
   </div>
-       <section>
-    <h1> About Me</h1>
+  
+         <section>
+    <h1><strong>About Me</strong></h1>
         <p>Hellen is a sport enthusiast who enjoys working out and dancing aerobics. This has helped me to maintain a healthy lifestyle while still enjoying my favorite dishes which include:
           <ol type="i">
             <li>Nyama Choma</li>
@@ -51,8 +54,8 @@
         <li>Hiking</li>
         <li>Reading journals</li>
         <li>Gardening</li>  
-          
       </ul>
+      <img src="../portfolio/images/garden.PNG" alt="Spinach image" style="width: fit-content;height: auto;margin-block:pa;">
     </p>
       
 <p>Here are some of my accomplishments in week one of training
@@ -63,5 +66,25 @@
 </p>
 
 <a href="mailto:abekahellena@gmail.com?subject=Feedback&body= Message">Share Feedback</a>
+<p> You can subscribe below to get tips on Networking
+  <div class="subscribers-container">
+    <form method="POST">
+      <input type="email" name="youremail" placeholder="Email Address" required>
+      <input type="text" name="yourname" placeholder="Name" required>
+      <input class="subscribe-button" type="submit" value="Subscribe">
+    </form>
+  </div>
+</p>
+
+<form method="post">
+  <fieldset>
+    <legend>Do you agree to the terms?</legend>
+    <label><input type="radio" name="radio" value="yes" /> Yes</label>
+    <label><input type="radio" name="radio" value="no" /> No</label>
+  </fieldset>
+</form>
+
+</p>
+
 </body>
 </html>
