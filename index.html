@@ -19,9 +19,22 @@
 
         .custom{
       font-family: cambria;
-      color: rgb(29, 5, 125);
+      color: burlywood;
       font-size: 15px;
       font-style: normal;
+        }
+        * {
+          box-sizing: border-box;
+        }
+        .column {
+          float: left;
+          width: 50%;
+          padding: 5px;
+        }
+        .row::after {
+          content: "";
+          clear:both;
+          display: table;
         }
   </style>
       </head>
@@ -35,7 +48,7 @@
   
          <section>
     <h1><strong>About Me</strong></h1>
-        <p>Hellen is a sport enthusiast who enjoys working out and dancing aerobics. This has helped me to maintain a healthy lifestyle while still enjoying my favorite dishes which include:
+        <p>Hellen is a sport enthusiast who enjoys working out and dancing aerobics. This has helped me to maintain a <strong> healthy lifestyle</strong> while still enjoying my favorite dishes which include:
           <ol type="i">
             <li>Nyama Choma</li>
             <li>Fried <em>kienyeji</em> Chicken</li>
@@ -47,7 +60,7 @@
 
   <section>
     <p>I hold a Master of Business Administration degree from the University of Nairobi. To kick start my career, I started working as a volunteer at a learning instituition in Nairobi where I was deployed in the computer lab assisting with maintenance of the Lab computers. I later on joined Kenya Bureau of standards IT networking team where I supported users, shortly thereafter I joined MTN Business Kenya as a Customer support engineer in the Service Delivery department. This is where my passion in networking continued to grow and I later on joined the technology division as a Network engineer. While enjoying the networking role, things were'nt always smooth,from major outages and faults that could result to many sleepless nights I can say the experience was rewarding in the long run! Right now, I'm working as a Service Activation Engineer at Safaricom PLC. I have been in Safaricom since January 2022 and so far the experience has been awesome from great team collaboration; continuos personal growth and development opportunities; just to mention a few.</p>
-    <p>The drive to pursue programming skills was mainly the need to work efficiently by automating some of the routine work processes and also to stay abreast with the current trends. As I embark on this learning experience I envision myself becoming very proficient and resourceful in coding and providing real business solutions. I have always admired software developers and wished that one day I would be able to code and join the <em>fancy</em> profession </p>
+    <p>The drive to pursue programming skills was mainly the need to work efficiently by automating some of the routine work processes and also to stay abreast with the current trends. As I embark on this learning experience I envision myself becoming very proficient and resourceful in coding and providing real business solutions. I have always admired software developers and wished that one day I would be able to code and join the <em>fancy</em> profession. </p>
         <p>Off the clock, you will find me engaged in either of the following activities:
       <ul>
         <li>Aerobics</li>
@@ -55,12 +68,18 @@
         <li>Reading journals</li>
         <li>Gardening</li>  
       </ul>
-      <div style="box-sizing: *;"
-      <img src="../portfolio/images/garden.PNG" alt="Spinach image" style="width: fit-content;height: auto;margin-block:pa;">
-      <img src="../portfolio/images/tree-planting.jpg" alt="Image not found">
+        <div class="row">
+          <div class="column">
+            <img src="../portfolio/images/garden.PNG" alt="Vegetables image" style="width: 100%;">
+          </div>
+          <div class="column">
+            <img src="../portfolio/images/tree-planting1.jpg" alt="Image not found" style="width: 43%;">
+          </div>
+        </div>
+         
     </p>
   </section> 
-<p>Here are some of my accomplishments in week one of training
+<p>Below are some of my accomplishments in week one of training. Further <span style="color: white;">enhancement</span> will continue throughout the course.
   <ul>
     <li><a href="https://omwano.github.io/my-first-website"> My First Web page</a></li>
     <li><a href="https://omwano.github.io/my_pet"> My Pet Blog</a></li>
