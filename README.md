@@ -5,14 +5,16 @@ Portfolio Landing page
 Omwono Hellen, A
 
 ## About this project
-This is a Landing page about me
+This is a Landing page about me. Further enhancements shall be made throughout the training.
 
 ## Setup instructions
 These instructions will help you to install a copy of the project for development and testing.
 
 - Clone the repository to your local machine: git clone https://github.com/omwano/portfolio.git
 - Open the cloned folder in VS Code
+- Install mail client on your local machine
 - Go Live, to view the page
+
 
 ## Technologies used
 - HTML
